@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Rock, Paper, Scissors Game</h1>
+        <div class="text-center mt-3">
+            <button class="btn btn-primary" onclick="startGame()">Start Game</button>
+        </div>
+        <div id="game" class="mt-3" style="display: none;">
+            <div class="row">
+                <div class="col-md-4 offset-md-2 text-center">
+                    <h2>You</h2>
+                    <img id="player-choice" src="./images/human.png" alt="Your choice" width="100">
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2>Computer</h2>
+                    <img id="computer-choice" src="./images/ai.png" alt="Computer's choice" width="100">
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <h3 id="result"></h3>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- JS  -->
+    <script src="./script.js"></script>
+</body>
+</html>

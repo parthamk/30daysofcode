@@ -7,7 +7,7 @@ public class PrimeInArray {
         // Input the size of the array
         System.out.print("Enter array size: ");
         int size = scanner.nextInt();
-        
+
         // Input the array elements
         int[] A = new int[size];
         System.out.println("Enter array elements:");
