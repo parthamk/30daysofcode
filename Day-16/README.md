@@ -2,7 +2,7 @@
 
 **In Simple Terms:** Think of async/await like waiting for a pizza delivery. When you order a pizza (which might take some time to cook), you don't just stand by the door until it arrives. Instead, you go about your other tasks at home. But you keep an eye on the door, and when the delivery person arrives, you stop what you're doing to get your pizza. Async/await lets your computer do similar things - it allows your program to keep doing other tasks while it's waiting for something to finish, like fetching data from the internet.
 
-**Markup Explanation:**
+**Code Snippet:**
 ```javascript
 async function getPizza() {
   // This is like placing the order for pizza
@@ -22,7 +22,7 @@ getPizza(); // This starts the pizza cooking process
 
 **In Simple Terms:** Imagine you want to borrow a book from a library, but you're not sure if it's available right away. So, you take a promise slip from the librarian, and they tell you they'll call you when the book is ready. You're free to do other things while you wait. A promise in programming works similarly; it's like a guarantee that something will happen, and you can keep doing other tasks until it's fulfilled or rejected.
 
-**Markup Explanation:**
+**Code Snippet:**
 ```javascript
 const borrowBook = new Promise((resolve, reject) => {
   // Simulating checking if the book is available
@@ -48,7 +48,7 @@ borrowBook
 
 **In Simple Terms:** Think of `.then` and `.catch` as actions you take based on the promise's outcome. If the promise is fulfilled (like getting the book from the library), you say "Great!" and enjoy reading. If the promise is rejected (like the book not being available), you say "Oh no!" and figure out what to do next.
 
-**Markup Explanation:**
+**Code Snippet:**
 ```javascript
 borrowBook
   .then((result) => {
