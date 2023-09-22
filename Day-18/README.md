@@ -1,5 +1,3 @@
-Sure, I can explain these concepts using simple language and some code examples. Let's break down your questions one by one:
-
 ### 1. How JavaScript is Executed?
 
 JavaScript is a scripting language that allows you to make web pages interactive. When you include JavaScript code in an HTML document using a `<script>` tag, the browser executes it in a step-by-step fashion.
